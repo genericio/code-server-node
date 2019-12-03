@@ -1,4 +1,4 @@
-FROM codercom/code-server
+FROM codercom/code-server:1.1156-vsc1.33.1
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && \
     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && \
